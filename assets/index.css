@@ -47,9 +47,15 @@ body {
 }
 
 img {
-  max-width: 25vw;
+  max-width: 100%; 
+  height: auto; 
 }
 
 #film-info {
   padding-bottom: 15px;
+}
+
+.sold-out {
+  opacity: 0.5; 
+  text-decoration: line-through; 
 }
